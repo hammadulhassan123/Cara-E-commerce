@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;   
+}
+:root{
+    --main-colour: #e3e6f3;
+    --text-colour: #008178;
+    --text-other: #465b52;
+    --border-color: #cce7d0;
+    --text-other2: #088178;
+}
+
+.hero{
+    background-image: url('D:\Cara\Cara\src\assets\hero4.png');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero h4 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #222;
+}
+
+.hero h2{
+    font-size: 50px;
+    line-height: 54px;
+    color: #222;
+}
+
+.hero h1{
+    color: var(--text-colour);
+    font-size: 55px;
+    line-height: 64px;
+}
+
+.hero p {
+        font-size: 16px;
+        color: var(--text-other);
+        margin: 15px 0 20px 0;
+    }
+
+.hero button {
+    background-image: url('../../assets/button.png');
+    background-color: transparent;
+    color: var(--text-other2);
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.hero button:hover .icon{
+    -webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+    transition: all 0.3s ease-in;
+}
+
+
+/* feature boxes */
+.ftbox{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px  rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.ftbox img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ftbox h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: var(--text-other2);
+}
+
+.ftbox:hover{
+    box-shadow: none;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-image: url("../../assets/b2.jpg"); */
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.bnrBtn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 17px 35px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.bnrBtn:hover{
+    background-color: var(--text-colour);
+    color: #fff;
+}
+
+/* mini Headings */
+
+.minHead h1{
+    font-size: 48px;
+    line-height: 54px;
+    color: #222;
+}
+.minHead p {
+    font-size: 22px;
+    color: #465b52;
+    margin: 15px 0;
+}
+
+/* 2 banners */
+.bnr2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bnrBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+.bnrBox h4{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+}
+.bnrBox h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.bnrBox span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.bnrBox .bnr2Btn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+.bnr2Btn:hover{
+    background-color: var(--text-colour);
+    border-color: var(--text-colour);
+}
+
+/* three banners */
+
+.bnr3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+    padding: 0 40px;
+}
+
+.bnr3 .bnrBox{
+    display: flex;
+    flex-direction: column;
+    background-blend-mode: overlay;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 20vw;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.bnr3 .bnrBox h2{ 
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 54px;
+}
+.bnr3 .bnrBox h3{ 
+    color: #ff6c67;
+    font-weight: 800;
+    font-size: 15px;
+}
