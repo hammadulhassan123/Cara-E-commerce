@@ -106,8 +106,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    /* background-image: url("../../assets/b2.jpg"); */
+    text-align: center;    
     background-size: cover;
     background-position: center;
     margin: 20px 0;

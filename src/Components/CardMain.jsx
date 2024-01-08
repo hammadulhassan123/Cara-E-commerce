@@ -51,8 +51,8 @@ const CardMain = () => {
         <Container>
             <Row>
                 {
-                    CardData.map((data)=>(
-                    <Col lg={3} md={6} sm={12} >
+                    CardData.map((data,index)=>(
+                    <Col key={index} lg={3} md={6} sm={12} >
                         <Card1 key={data.name} image={data.image} />
                     </Col>
                 ))}

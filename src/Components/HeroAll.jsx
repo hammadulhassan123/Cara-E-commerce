@@ -1,14 +1,14 @@
 import React from 'react'
+import "./components.css"
 
-const HeroAll = () => {
+const HeroAll = ({ image, heading, subheading }) => {
   return (
-    <div>
-      <div className='banner' style={{}}>
-            <h4>Repair Services</h4>
-            <h2>Upto <span className='text-danger fs-1' >70% off</span> on All T-shirts and Accessories </h2>
-            <Button className='bnrBtn btn-light'>Explore More</Button>
+    <>
+      <div className='heroAll' style={{backgroundImage: `url(${image})`}}>
+            <h2>{heading}</h2>
+            <p>{subheading}</p>
       </div>
-    </div>
+    </>
   )
 }
 

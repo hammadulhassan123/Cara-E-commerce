@@ -43,8 +43,8 @@ const  Card2 = () => {
       <Container>
         <Row>
             {
-                CardData.map((data)=>(
-                <Col lg={3} md={6} sm={12} >
+                CardData.map((data,index)=>(
+                <Col key={index} lg={3} md={6} sm={12} >
                     <Card className='prodCard'>
                         <Card.Body>
                             <Image className='prodImg' src={data.image}  alt="Product" />
