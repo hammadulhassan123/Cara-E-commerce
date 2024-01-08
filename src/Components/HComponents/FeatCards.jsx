@@ -42,7 +42,7 @@ const FeatCards = () => {
     ]
   return (
     <>
-      <Container>
+      <Container className='justify-content-center' >
         <Row>
             {featureDetails.map((ft)=>(
                     <Col key={ft.heading} className='mt-2' lg={2} md={6}>
