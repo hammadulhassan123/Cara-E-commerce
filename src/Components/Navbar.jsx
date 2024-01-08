@@ -28,7 +28,7 @@ const NavBar = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className='justify-space-evenly'>
             <Nav className="ms-auto me-auto align-items-center ">
-                <NavLink to="/" className="anchor mx-3 ">Home</NavLink>
+                <NavLink to="/" className="anchor mx-3 active">Home</NavLink>
                 <NavLink to="/shop" className="anchor mx-3">Shop</NavLink>
                 <NavLink to="/blog" className="anchor mx-3">Blog</NavLink>
                 <NavLink to="/about" className="anchor mx-3">About</NavLink>

@@ -11,6 +11,7 @@ import Card2 from '../Card2'
 import CardMain from '../CardMain'
 import Banner2 from './Banner2'
 import Banner3 from './Banner3'
+import "./home.css"
 
 const Home = () => {
   return (

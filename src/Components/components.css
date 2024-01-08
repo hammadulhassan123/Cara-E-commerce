@@ -50,6 +50,7 @@
 .anchor:hover:after{
     width: 65%;
 }
+  
 
 .navbar-custom .anchor:focus,.navbar-custom .anchor:hover{
     color: var(--text-colour);

@@ -1,7 +1,11 @@
 import React from 'react'
 import HeroAll from '../HeroAll'
-import { Pagination } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import b1 from "../../assets/banner.png"
+import CntctGoogle from './CntctGoogle'
+import ContactDetails from './ContactDetails'
+import Pagination from '../Pagination'
+import ContactSection from './ContactSection'
 
 const Contact = () => {
   const image = b1;
@@ -10,7 +14,17 @@ const Contact = () => {
 return (
     <>
       <HeroAll image={image} heading={heading} subheading={subheading} />
-      <h1>Contact Us</h1> 
+      <Container className='mt-5 mb-5'>
+        <Row>
+          <Col md={6} sm={12} >
+              <ContactDetails/>
+          </Col>  
+          <Col md={6} sm={12} >
+              <CntctGoogle/>
+          </Col>  
+        </Row> 
+      </Container>
+      <ContactSection/>
       <Pagination/>
     </>
   )

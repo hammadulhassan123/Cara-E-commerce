@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;   
+}
+:root{
+  --main-colour: #e3e6f3;
+  --text-colour: #008178;
+  --text-other: #465b52;
+  --border-color: #cce7d0;
+  --text-other2: #088178;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Aspect ratio for responsive iframe (16:9) */
+    position: relative;
+    height: 50vh;
+}
+  
+.map-responsive iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.details h2{
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+.details h3{
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+
+
+.details .row ul li{
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+.details .row ul li .icons{
+  font-size: 18px;
+  padding-right: 22px;
+}
+
+/* Contact Details */
+.form-details{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #e1e1e1;
+}
+
+.form-details span {
+  font-size: 12px;
+}
+
+.form-details h2 {
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+.form-details input{
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+}
+
+.form-details form .simple{
+  background-color: #088178;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  margin-top : 5%;
+  margin-bottom : 5%;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+.people  div{
+  padding-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.people div img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 18px;
+}
+
+.people div p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+  color: var(--text-other);
+}
+
+.people div p span {
+  display: block;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #000;
+}

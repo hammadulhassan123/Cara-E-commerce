@@ -11,7 +11,7 @@ const Aboutmid = () => {
           <Row>
             <Col md={4} sm={12}>
               <div className="midImg img-fluid " >
-                <Image src={ab} alt="Solar on a house" fluid />
+                <Image src={ab} alt="Shoping animated" fluid />
               </div>
             </Col>
             <Col md={8} sm={12}>
