@@ -2,6 +2,8 @@ import React from 'react'
 import HeroAll from '../HeroAll';
 // import b1 from '../../assets/bg-cart.jpg'
 import b1 from '../../assets/BGcart.png'
+import CartTable from './CartTable';
+import CartMid from './CartMid';
 
 const Cart = () => {
   const image = b1;
@@ -10,7 +12,8 @@ const Cart = () => {
 return (
     <>
         <HeroAll image={image} heading={heading} subheading={subheading}/>
-        <h1>Your Cart</h1> 
+        <CartTable/>
+        <CartMid/>
     </>
   )
 }

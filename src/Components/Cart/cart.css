@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;   
+}
+:root{
+    --main-colour: #e3e6f3;
+    --text-colour: #008178;
+    --text-other: #465b52;
+    --border-color: #cce7d0;
+    --text-other2: #088178;
+}
+
+.cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 80px;
+  }
+
+.coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.couponForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.coupon h3 {
+    padding-bottom: 15px;
+  }
+
+.coupon input {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid var(--border-color);
+  }
+
+  .simple{
+    background-color: var(--text-colour);
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+  }
+
+  .simple:hover{
+    background-color: var(--text-colour);
+    color: #fff;
+  }
